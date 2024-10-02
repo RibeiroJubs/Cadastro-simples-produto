@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+body h2 {
+  justify-content: center;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+main {
+  border: solid;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+button {
+  width: 100px;
+  border-radius: 2px;
+  border: none;
+  padding: 5px;
+  background-color: rgb(131, 245, 137);
+}
+
+.campos {
+  display: grid;
+}
+
+#resposta, #nao, #sim {
+  flex-direction: row;
+}
+
+.conteudo {
+  margin-top: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid rgb(228, 222, 223);
+  width: 100%;
+}
+table tbody {
+  background-color: rgb(197, 214, 236);
+}
+
+.campo-2 {
+  display: flex;
+  gap: 20px;
+}/*# sourceMappingURL=style.css.map */
